@@ -16,10 +16,3 @@ By default Poetry creates a test folder, but for now there's no tests for this r
 4. Create jupyter notebook kernel using `poetry run ipython kernel install --user --name sensor-comparison`.
 5. Activate environment using `poetry shell`.
 6. Use jupyter notebook as usual selecting the correct kernel.
-
-## Using venv
-
-1. Generate install script and requirements file using examples from other Skunkworks analytics repositories. Example [analytics.user-daily-metrics](https://github.com/Skunkworks-Games/analytics.user-daily-metrics)
-2. Populate requirements file based on content in `pyproject.toml`.
-3. To install all required python libraries, run `bash install.sh`
-4. Activate the virtual environment using `source venv/bin/activate`
